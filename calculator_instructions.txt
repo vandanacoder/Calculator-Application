@@ -1,0 +1,77 @@
+Calculator Program Instructions
+1.Startup and Menu Display
+When you run the program, it will display a menu with available operations.
+The menu options are:
++ for addition
+- for subtraction
+* for multiplication
+/ for division
+q to quit the calculator
+
+2.Choosing an Operation
+Enter the symbol corresponding to the operation you want to perform (e.g., '+', '-', '*', '/').
+If you enter 'q' or 'Q', the program will terminate and display "Exiting the calculator. Goodbye!".
+
+3.Input Numbers
+After choosing an operation (except 'q'), the program prompts you to enter two numbers.
+Enter the first number and press Enter.
+Enter the second number and press Enter.
+
+4.Performing the Calculation
+The program will then perform the selected operation on the two entered numbers.
+It will display the result of the operation on the screen.
+
+5.Handling Division by Zero
+If you choose division ('/'), the program checks if the second number (divisor) is zero.
+If it is zero, the program displays an error message: "Error: Division by zero is not allowed." and prompts for another operation.
+Otherwise, it performs the division and displays the result.
+
+6.Invalid Operation Handling
+If you enter an invalid operation symbol (not one of '+', '-', '*', '/', 'q', 'Q'), the program will display: "Invalid operation. Please try again." and prompt for another operation.
+
+7.Repeat or Quit
+After displaying the result (or error message), the program returns to the main menu.
+You can choose another operation or enter 'q' to quit the calculator.
+
+8.Exiting the Program
+When you choose 'q' to quit, the program terminates and displays "Exiting the calculator. Goodbye!".
+
+Example Usage
+Example 1:
+
+===== Calculator Menu =====
+Enter + for addition
+Enter - for subtraction
+Enter * for multiplication
+Enter / for division
+Enter q to quit
+Choose an operation: +
+Enter first number: 10
+Enter second number: 5
+Result: 15
+
+Example 2 (division by zero):
+
+===== Calculator Menu =====
+Enter + for addition
+Enter - for subtraction
+Enter * for multiplication
+Enter / for division
+Enter q to quit
+Choose an operation: /
+Enter first number: 8
+Enter second number: 0
+Error: Division by zero is not allowed.
+
+Example 3 (invalid operation):
+
+===== Calculator Menu =====
+Enter + for addition
+Enter - for subtraction
+Enter * for multiplication
+Enter / for division
+Enter q to quit
+Choose an operation: %
+Invalid operation. Please try again.
+
+These instructions provide a clear guide on how to interact with and utilize the calculator program effectively.
