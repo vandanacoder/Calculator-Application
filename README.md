@@ -21,9 +21,10 @@ Upon running the application, you will be presented with a menu to choose from t
 - Enter second number: 5.
 In this example, the user chose the addition operation (+) and entered the numbers 10 and 5, resulting in 15.
 ## File Structure
-- *calculator.cpp*: The main source file containing the implementation of the calculator's functionalities.
+- *CalculatorApplication.cpp*: The main source file containing the implementation of the calculator's functionalities.
 - *README.md*: This file, providing an overview of the project, installation instructions, usage examples, and other relevant information.
 - *LICENSE*: License information for the project.
 - *.vscode/*: Contains configuration files for Visual Studio Code for ease of development.
+- *calculator_instructions.txt*: Provides detailed instructions on how to use the calculator application, usage, examples, and troubleshooting.
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
